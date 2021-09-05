@@ -1,0 +1,142 @@
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+	/* PORTFOLIO */
+
+	.single-portfolio-width-two {
+	    width: 66.60%;
+	}
+	.single-portfolio-width-three {
+	    width: 33.28%;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	/* GLOBAL */
+
+	h4 {
+		font-size: 16px;
+	}
+	
+	/* BANNER AREA */
+
+	.banner-area .single-banner-con {
+		margin-top: 200px;
+	}
+
+	/* TESIMONIAL */
+
+	.single-testimonial:after {
+		right: 0;
+	}
+
+	/* FOOTER */
+
+	.about-widget-subscribe form input {
+		width: 84%;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	/* GLOBAL */
+
+	h4 {
+		font-size: 16px;
+	}
+
+	/* HEADER */
+	
+	.header-address,
+	.header-free-con.text-right {
+		text-align: center;
+		margin-top: 5px;
+	}
+	.header-free-con.text-right {
+		margin-top: 5px;
+	}
+
+	/* BANNER AREA */
+
+	.banner-area .single-banner-con {
+		margin-top: 200px;
+	}
+
+	/* COUNTER */
+
+	.bd-right.single-counter {
+	    border-right: 0;
+	}
+
+	/* CONSULTATION */
+	.consultation-area:after {
+	    height: 50%;
+	    left: 0;
+	    top: 0;
+	    transform: rotate(0);
+	}
+	.skill-progress-bar .barfiller {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	
+	/* OWL */
+	.owl-nav {
+		display: none;
+	}
+
+	/* GLOBAL */
+	h2 {
+		font-size: 20px;
+	}
+	
+	/* BANNER */
+
+	.banner-area:hover .owl-nav .owl-prev,
+	.banner-area:hover .owl-nav .owl-next {
+	    visibility: hidden;
+	}
+	.banner-area .single-banner-txt {
+		padding: 0 15px;
+	}
+	.banner-area .single-banner-txt h1 {
+		font-size: 20px;
+	}
+	.banner-area .single-banner-txt a {
+		padding: 10px 0;
+		display: block;
+	}
+
+	/* ATTORNEY */
+
+	.single-attorney-txt {
+		padding: 25px 10px;
+	}
+
+	/* FOOTER */
+
+	.about-widget-subscribe form input {
+		width: 84%;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	/* BANNER */
+	.banner-area .single-banner-txt a {
+		padding: 10px 15px;
+		display: inline-block;
+	}
+}
